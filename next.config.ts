@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  allowedDevOrigins: ["petted-ounce-settle.ngrok-free.dev"],
   experimental: {
     agentFeedback: true,
   },
